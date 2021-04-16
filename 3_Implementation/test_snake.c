@@ -1,7 +1,6 @@
 #include "unity.h"
 #include "snake.h"
 #include <stdbool.h>
-#include <conio.h>
 /* required by the unity test framework */
 void setUp(){}
 /* required by the unity test framework */

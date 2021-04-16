@@ -10,7 +10,6 @@
  */
 #include "unity.h"
 #include "unity_internals.h"
-#include <conio.h>
 #include <stdbool.h>
 bool gameover;
 const int width=20;			// width of rectangle
