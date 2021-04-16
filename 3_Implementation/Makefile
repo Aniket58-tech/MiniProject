@@ -11,7 +11,8 @@ INC = unity
 
 TEST = unity/unity.c
 
-$(PROJECT_NAME): $(SRC) $(TEST)
+#$(PROJECT_NAME): $(SRC) $(TEST)
+all:
 	gcc -I $(INC) $(SRC) $(TEST) -o $(PROJECT_NAME)
 	
 run: $(PROJECT_NAME)
